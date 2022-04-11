@@ -1,0 +1,245 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+:root {
+  --off-white: #313131;
+  display:inline;
+  
+}
+
+.sneakpeeksCol{
+  margin-bottom: 40px !important;
+  max-width:500 !important;
+  max-height:500 !important;
+}
+
+.mediaContainer{
+  width: 100%;
+}
+
+.NFT_Carousel{
+  max-width:700px !important;
+  max-height:700px !important;
+}
+
+.introContainer{
+  width: 100% !important;
+  min-height: 100% !important;
+  background-image:  url('components/containers/static/media/jg.png') ;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-repeat:repeat-x;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.sssButton{
+  background: linear-gradient(180deg,#5367c0 0%,#051301 100%) !important;
+}
+
+h5{
+  text-align: center;
+}
+
+h1, h2, h3, h4, h6{
+  color: rgb(56, 56, 56);
+  padding-top: 40px;
+  text-shadow: 0 0 3px #ffffff, 0 0 3px #ffffff;
+  text-align: center !important;
+}
+
+p{
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+  text-align: center;
+}
+
+a{
+  color: rgba(255,255,255,.55) !important;
+  text-decoration: none !important;
+}
+
+.introbody{
+  min-height: 200px;
+}
+
+.accordion-body{
+  text-align: left;
+}
+
+.footerContainer{
+  margin-top: 50px !important;
+  max-width: 100% !important;
+}
+
+.mintLink{
+  color: #fff !important;
+  text-decoration:none !important;
+}
+
+.logo-item{
+  color: #6c7179 !important;
+}
+
+.logo-item:hover{
+  color: #ffffff !important;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.roadmap-container {
+  margin: auto;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: #353535;
+  border-radius: 15px;
+  height: auto !important;
+  background-image:  url('components/containers/static/media/jgg.png') ;
+  background-repeat:repeat-x;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100% !important;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px 0 30px;
+  border-top-left-radius: 20px;
+}
+
+.authed-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.header {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.sub-text {
+  font-size: 25px;
+  color: white;
+}
+
+.connect-wallet-button {
+  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.footer-container {
+  max-width: 100%;
+  
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.roadCard{
+  margin: auto;
+  flex: 50%;
+  background-color: rgb(19, 46, 4) !Important;
+  color: white;
+  border-radius: 15px !important;
+  width: 400px !important;
+  min-width: 80% !important;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+}
+
+.col{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card-body{
+  margin: auto;
+  height: 100% ;
+  width: 100%;
+  margin-bottom: 20px ;
+  opacity: 0.8;
+}
+
+.list-group-item{
+  margin: auto;
+  width: 60% !important;
+  height: 40% !important;
+}
+
+
+.card-text {
+  border-radius: 15px 50px 30px;
+  margin-top: 30px !important; 
+  margin-bottom: 40px !important;
+}
+
+
+.teamCard{
+  margin: auto;
+  background-color: rgb(19, 46, 4) !Important;
+  color: white;
+  width: 288px !important;
+  height: 390px !important;
+  margin-bottom: 50px;
+  align-items: center;
+  align-content: center !important;
+ 
+}
+
+
+.separator-container {
+  background-repeat: repeat-x;
+  height: 65px;
+  margin: 64px -120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 70px;
+  background: rgb(29, 63, 9);
+  color: rgb(13, 36, 18);
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
+.back-to-top:hover {
+  background: rgb(49, 179, 81);
+}
